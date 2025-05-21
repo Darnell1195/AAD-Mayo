@@ -1,6 +1,4 @@
-package com.example.aad_mayo.sharePreferences.Alumno.domain
-
-import com.example.aad_mayo.Room.Alumno.domain.Grupo
+package com.example.aad_mayo.Room.Alumno.domain
 
 interface GrupoRepository {
     fun guardarGrupo(grupo: Grupo)

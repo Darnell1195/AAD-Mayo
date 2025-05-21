@@ -2,8 +2,7 @@ package com.example.aad_mayo.sharePreferences.Alumno.dato
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.example.aad_mayo.sharePreferences.Alumno.domain.Alumno
-import com.example.aad_mayo.sharePreferences.Alumno.domain.AlumnoRepository
+import com.example.aad_mayo.Room.Alumno.domain.Alumno
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 

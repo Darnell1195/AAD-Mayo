@@ -2,12 +2,12 @@ package com.example.aad_mayo.sharePreferences.Alumno.dato
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.example.aad_mayo.sharePreferences.Alumno.domain.Curso
-import com.example.aad_mayo.sharePreferences.Alumno.domain.CursoRepository
+import com.example.aad_mayo.Room.Alumno.domain.Curso
+import com.example.aad_mayo.Room.Alumno.domain.CursoRepositoryRoom
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
-class CursoRepositoryPrefsImpl(context: Context) : CursoRepository {
+class CursoRepositoryPrefsImpl(context: Context) : CursoRepositoryRoom {
     private val prefs: SharedPreferences = context.getSharedPreferences("cursos_prefs", Context.MODE_PRIVATE)
     private val gson = Gson()
 

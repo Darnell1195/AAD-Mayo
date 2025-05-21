@@ -1,6 +1,4 @@
-package com.example.aad_mayo.sharePreferences.Alumno.domain
-
-import com.example.aad_mayo.Room.Alumno.domain.Matricula
+package com.example.aad_mayo.Room.Alumno.domain
 
 interface MatriculaRepository {
     fun guardarMatricula(matricula: Matricula)
